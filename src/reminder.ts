@@ -28,4 +28,4 @@ const postOpenIssuesFromNotionToSlack: Handler = async () =>{
     }
 }
 
-export const handler = schedule('* * * * *',postOpenIssuesFromNotionToSlack);
+export const handler = schedule('0 0 1 * *',postOpenIssuesFromNotionToSlack);
