@@ -79,16 +79,17 @@ type FoodOpinionModalState = {
 				value: string;
 			};
 		};
-		spice_level_block: {
-			spice_level: {
+		crises_mode_block: {
+			crises_mode: {
 				type: 'static_select';
 				selected_option: {
+					value: any;
 					text: {
 						type: 'plain_text';
 						text: string;
 						emoji: boolean;
 					};
-					value: string;
+					label: string;
 				};
 			};
 		};
